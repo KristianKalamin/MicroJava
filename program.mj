@@ -1,0 +1,31 @@
+class Program {
+    public int foo(int a, int b) {
+        int i
+        int c
+        i = 0
+        while(i < 3) {
+            c = a + i
+             i++
+         }
+         c = c + b
+         return c
+     }
+
+     private void foo2(int v) {
+         if(v == 10) {
+            v--
+         }
+         else {
+            v++
+         }
+     }
+
+     public static int main() {
+         char a
+         a = 1
+         foo2(5)
+         foo(2,3)
+
+         return 0
+     }
+}
